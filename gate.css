@@ -1,0 +1,17 @@
+.container {  display: grid;
+	grid-template-columns: 100px 654px 100px;
+	grid-template-rows: 111px 100px 80px 100px 80px 89px 80px  80px 10px 80px 30px 30px;
+	
+
+  }
+  
+  
+  div{border:dotted 1px;}
+  .kran{ grid-column:span 3; background:yellow}
+  .kran2{grid-column:span 3;background:yellow}
+  .kran1{grid-row:span 2;grid-column:span 3 ;background:yellow}
+  .v{text-align: center; padding-top:1px ; font-size: 20px; word-wrap: break-word; font-weight: 600background: rgb(2,0,36);
+	background: linear-gradient(197deg, rgba(2,0,36,1) 0%, rgba(238,238,238,1) 0%, rgba(0,212,255,1) 100%);}
+	.kran,.kran2,.kran1{text-align: center; font-size: 40px;}
+  b{font-size: 30px; font-weight: 700;}
+  
