@@ -162,7 +162,7 @@ district:'Кременчук(1-й, 2-й,3-й Занасип)'
   
     
    julj.map(j=>{
-   j.operator.includes(inp)?out.innerHTML= `<br> участок: <p class="p1">${j.district}</p> табельный:<p  class="p4">${j.tab}</p>контролер:<p class="p2">${j.operator}</p> телефон контролера:<p class="p3">${j.tel}</p>`:console.log(inp);
+   j.operator.includes(inp)?out.innerHTML= `<br> Дільниця: <p class="p1">${j.district}</p> Табельний номер:<p  class="p4">${j.tab}</p>контролер:<p class="p2">${j.operator}</p> телефон контролера:<p class="p3">${j.tel}</p>`:console.log(inp);
    
    j.operator.includes(inp)?out.classList.add('h'):console.log('j');
    
